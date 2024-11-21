@@ -13,7 +13,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:3000/login', {
+      const response = await fetch('https://fullstack-mern-example-d2i2.onrender.com/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
